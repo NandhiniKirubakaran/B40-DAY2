@@ -1,0 +1,37 @@
+1. Three integers are given in line by line.Print the integers in a single line separate by space.
+
+let value = userInput[0];
+  let value1 = userInput[1];
+  let value2 = userInput[2];
+ 
+  console.log(value + " " + value1 + " " + value2);
+
+2. First-line indicates two integers separated by space. Second-line indicates three integers separated by space. Third-line indicates three integers separated by space.Print the input in the same format.
+
+let x = userInput[0];
+  let y = userInput[1];
+  let z = userInput[2];
+  
+  console.log(x);
+  console.log(y);
+  console.log(z);
+
+  3. A single line contains a string.Print the characters in a string separated by space.
+
+  let str = userInput[0].split("").join(" ");
+  
+  console.log(str);
+
+  4. A single line contains three float values separated by space.Print the float value separated by line.
+
+  let a = userInput[0].split(" ");
+   for(let i=0;i<a.length;i++){
+    console.log(a[i]);
+   }
+
+   5. A single line contains a string.Print the characters in a string separated by line.
+
+   let x = userInput[0].split("");
+    for(let i=0; i<x.length; i++){
+      console.log(x[i]);
+  }

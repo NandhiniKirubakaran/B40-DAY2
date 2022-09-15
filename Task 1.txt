@@ -1,0 +1,22 @@
+WINDOW OBJECTS--->
+
+Window object is the JS global object.
+It's represents the browser window.
+It is the very first object that is loaded in the browser.
+We can access the window from the window only. i.e. window.window.
+The window is part of BOM, not DOM.
+syntax:
+
+    window.propertyname;
+
+
+DOCUMENT OBJECT--->
+
+It's a property of the window object.
+It's represents the HTML document loaded in that window.
+It is loaded inside the window.
+We can access the document from a window using the window. document.
+The document is part of BOM (browser object model) and dom (Document object model).
+syntax:
+
+      document.propertyname;
